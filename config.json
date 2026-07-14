@@ -1,0 +1,31 @@
+{
+  "current_provider": "deepseek",
+  "current_model": "deepseek-v4-pro",
+  "providers": [
+    {
+      "name": "deepseek",
+      "api_key": "sk-1abb7a121c6a468db39378c70a00ad07",
+      "base_url": "https://api.deepseek.com",
+      "models": [
+        "deepseek-v4-pro",
+        "deepseek-v4-flash"
+      ]
+    }
+  ],
+  "prompts": [
+    {
+      "name": "默认",
+      "content": "你是一个有帮助的AI助手。"
+    },
+    {
+      "name": "代码助手",
+      "content": "你是一个专业的编程助手。回答时请给出可直接运行的代码，并附上简洁的解释。"
+    }
+  ],
+  "options": {
+    "temperature": 0.7,
+    "max_tokens": 4096,
+    "reasoning_effort": "high",
+    "thinking": false
+  }
+}
