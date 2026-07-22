@@ -4,7 +4,7 @@
   "providers": [
     {
       "name": "deepseek",
-      "api_key": "sk-1abb7a121c6a468db39378c70a00ad07",
+      "api_key": "API_KEY",
       "base_url": "https://api.deepseek.com",
       "models": [
         "deepseek-v4-pro",
